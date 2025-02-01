@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>nature's platter</title>
   <!--  css -->
-  <link rel="stylesheet" href="index.css">
+  
 
   <!-- daisyUI -->
 
@@ -25,8 +25,8 @@
 
 </head>
 <body>
-  <header class="md:container mx-auto  ">
-    <div class="navbar bg-base-100">
+  <header class="md:container mx-auto bg-[linear-gradient(to_left_top, #EFEBE3, #FFFFFF,)]  ">
+    <div class="navbar ">
       <div class="navbar-start">
         <div class="dropdown">
           <div>
@@ -193,7 +193,7 @@
       <div class=" flex gap-5 sm:flex-row flex-col  ">
         <!-- left card -->
          <div>
-          <div class="card bg-[linear-gradient(to_right_bottom,#53DB3A,#fff)] shadow-lg w-80  ">
+          <div class="card bg-[linear-gradient(to_right_bottom,#53DB3A,#fff)]  w-80  ">
             <div class="card-body space-y-3">
               <h2 class="card-title text-white ">30% off</h2>
                <p>Our Fresh vegetable and fruits are collected from rural farmers .</p>
@@ -393,7 +393,7 @@
     </section>                 
 
     <!-- offers -->
-    <section class="my-20 md:container mx-auto" >
+    <section class="my-20 pb-28 md:container mx-auto" >
       <div>
         <h3 class="font-semibold text-2xl text-[#179800] p-3 mb-4">Arrival & Offers</h3>
       </div>
@@ -438,8 +438,8 @@
   </main>
 
 
-  <footer>
-    <div class="mt-20 md:container mx-auto  bg-[#EFEBE3] rounded-lg p-3   ">
+  <footer class="relative  ">
+    <div class="mt-20 md:container mx-auto  bg-[#EFEBE3] rounded-lg p-3  absolute left-0 right-0 -top-[200px] ">
       <div class="card card-side  sm:flex-row flex-col  ">
         <figure>
           <img
@@ -448,15 +448,15 @@
             alt="vegetable" />
         </figure>
         <div class="sm:mt-12 sm:-ml-4 ml-8 mt:mt-1">
-          <div class=" sm:space-y-4  space-y-1 ">
+          <div class=" sm:space-y-4  space-y-3 ">
             <h2 class=" font-semibold text-3xl text-[#179800] sm:text-black text-center sm:-ml-28">Get Grocery News!</h2>
             <p>Exclusive training tips, ticks, product deals and more.</p>
             <label class="input input-bordered flex items-center gap-2">
              
               <input type="text" class="grow" placeholder="Enter email...." />
             </label>
-          <div>
-            <button class="bg-[#179800]    hover:bg-blue-200 text-white rounded-md p-2 w-24 hidden lg:block ">Subscribe</button>
+          <div class=" text-center sm:text-left">
+            <button class="bg-[#179800]    hover:bg-blue-200 text-white rounded-md p-2 w-24  ">Subscribe</button>
           </div>
             
           </div>
@@ -465,19 +465,19 @@
       </div>
     </div>
 
-    <footer class="footer bg-[#179800] text-base-content p-16  ">
+    <footer class="footer bg-[#179800] text-base-content p-16 pt-[290px] sm:pt-[240px]  ">
       <nav>
-        <img class="w-[50px] text-white  " src="c2-assets/logo-footer.png" alt="">
-       <p class=" text-white">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+        <img class="w-[70px] text-white  " src="c2-assets/logo-footer.png" alt="">
+       <p class=" text-white/70">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
       </nav>
       <nav>
-        <h6 class="  text-white">Product</h6>
-        <a class="link link-hover  text-white">Services</a>
-        <a class="link link-hover  text-white">Contact Us</a>
+        <h6 class="   text-white/70">Product</h6>
+        <a class="link link-hover  text-white/70">Services</a>
+        <a class="link link-hover   text-white/70">Contact Us</a>
      
       </nav>
       <nav>
-        <h6 class="  text-white mt-8">Follow us</h6>
+        <h6 class="   text-white/70 sm:mt-8 mt-4">Follow us</h6>
         <div class="grid grid-flow-col gap-4">
           <a>
             <svg
